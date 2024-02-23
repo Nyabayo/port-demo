@@ -1,0 +1,101 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ernest Portifolio Website</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            background-color: #f4f4f4;
+        }
+        .navigation {
+            display: flex;
+            justify-content: center;
+            background-color: #004d99;
+            padding: 10px 0;
+        }
+        .navigation a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .navigation a:hover, .footer a:hover, .button:hover {
+            background-color: #0073e6;
+            color: white;
+        }
+        .button {
+            display: inline-block;
+            margin: 20px;
+            padding: 10px 20px;
+            background-color: #0056b3;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .container {
+            padding: 20px;
+            flex-grow: 1;
+            transition: transform 0.3s ease;
+        }
+        .container:hover {
+            transform: translateY(-5px);
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        footer a {
+            color: white;
+            margin: 0 10px;
+            padding: 10px 20px;
+            background-color: #0056b3;
+            border-radius: 5px;
+            text-decoration: none;
+            display: inline-block;
+            transition: background-color 0.3s ease;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navigation">
+        <a href="portfolio.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+    </nav>
+
+    <div id="home" class="container">
+        <h1>Welcome to My Portfolio</h1>
+        <p>This is a showcase of my work as a software developer. I am dedicated to provide quality Mobile Application.</p>
+        <!-- Placeholder for your image. Replace 'your-image-url.jpg' with the actual URL of your image -->
+        <img src="C:\Users\ERNEST\Downloads\IMG_20240221_114618_725.jpg" alt="Welcome Image">
+    </div>
+
+    <footer>
+        <a href="https://twitter.com/NeonSpark11" target="_blank" class="button">Twitter</a>
+        <a href="https://www.linkedin.com/in/ernest-osindo-a1b178226/" target="_blank" class="button">LinkedIn</a>
+        <a href="https://github.com/Nyabayo" target="_blank" class="button">GitHub</a>
+        <a href="https://wa.link/xbcinb" target="_blank" class="button">WhatsApp</a>
+    </footer>
+</body>
+</html>
